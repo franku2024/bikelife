@@ -7,23 +7,31 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 import { CardComponent } from './components/card/card.component';
+import {MatCardModule} from '@angular/material/card';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
     NavbarComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
+    
   ],
   imports: [
     CommonModule,
     AppRoutingModule,
     MatIconModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatCardModule,
+    
   ],
   exports:[
-NavbarComponent
+    NavbarComponent,
+    CardComponent,
+    FooterComponent
   ]
 })
 export class SharedModule { }

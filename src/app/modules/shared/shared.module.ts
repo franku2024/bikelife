@@ -13,6 +13,8 @@ import { MatMenuModule } from '@angular/material/menu'
 
 
 
+
+
 @NgModule({
   declarations: [
     NavbarComponent,
@@ -34,7 +36,10 @@ import { MatMenuModule } from '@angular/material/menu'
     NavbarComponent,
     CardComponent,
     FooterComponent,
-    MatMenuModule
+    MatMenuModule,
+    MatButtonModule,
+    MatToolbarModule,
+
   ]
 })
 export class SharedModule { }

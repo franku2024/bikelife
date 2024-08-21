@@ -42,7 +42,7 @@ import { FormsModule } from '@angular/forms';
     MatInputModule,
     MatFormFieldModule,
     MatButtonModule,
-    MatSelectModule,
+    MatSelectModule
     
   ]
 })
